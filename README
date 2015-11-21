@@ -1,0 +1,6 @@
+final_50kfilinput.txt ---> ngrams(window size 3,slided along the tweet) and the attached corresponding label
+skip_pol_batch.lua ----> The main NN code(synatctic and semantic models coded in here).
+uniq_50ktokens.txt ----> All unique tokens out of the 50k tweets.
+ngrams.py ---> create ngrams from the tweets.
+filter.py and uni.py ---> pre-processes the given input(remove multiple spaces,punctuations etc)
+cls_feat50k.txt ---> The final word embeddings for the 50k tweets.(40,640 unique words)
